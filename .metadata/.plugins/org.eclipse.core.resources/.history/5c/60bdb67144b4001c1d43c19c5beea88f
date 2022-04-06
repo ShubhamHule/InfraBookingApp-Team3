@@ -1,0 +1,9 @@
+package com.zensar.room.db;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.zensar.room.bean.Room;
+
+public interface RoomDAO extends JpaRepository<Room, Integer> {
+
+}

@@ -1,0 +1,5 @@
+package com.zensar.booking.service;
+
+public class BookingService {
+
+}

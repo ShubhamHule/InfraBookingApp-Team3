@@ -1,0 +1,5 @@
+package com.zensar.booking.configuration;
+
+public class WebConfiguration {
+
+}

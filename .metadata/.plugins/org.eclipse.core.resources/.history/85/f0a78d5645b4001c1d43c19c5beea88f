@@ -1,0 +1,5 @@
+package com.zensar.room.rest.controller;
+
+public class RoomRestController {
+
+}

@@ -1,0 +1,5 @@
+package com.zensar.booking.security.jwt.util;
+
+public class JwtUtil {
+
+}

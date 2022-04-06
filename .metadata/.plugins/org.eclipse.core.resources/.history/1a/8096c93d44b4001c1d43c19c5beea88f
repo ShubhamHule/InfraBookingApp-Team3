@@ -1,0 +1,5 @@
+package com.zensar.room.bean;
+
+public class Room {
+
+}

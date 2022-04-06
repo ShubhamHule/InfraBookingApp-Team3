@@ -1,0 +1,93 @@
+package com.zensar.booking.bean;
+
+import java.util.List;
+import java.util.Objects;
+
+public class Booking {
+
+	private List<Room> bookedRooms;
+	private Employee stakeholder;
+	private String purpose;
+	private String dateOfBooking;
+	private int participants;
+
+	public Booking() {
+		super();
+	}
+
+	public Booking(List<Room> bookedRooms, Employee stakeholder, String purpose, String dateOfBooking,
+			int participants) {
+		super();
+		this.bookedRooms = bookedRooms;
+		this.stakeholder = stakeholder;
+		this.purpose = purpose;
+		this.dateOfBooking = dateOfBooking;
+		this.participants = participants;
+	}
+
+	public List<Room> getBookedRooms() {
+		return bookedRooms;
+	}
+
+	public void setBookedRooms(List<Room> bookedRooms) {
+		this.bookedRooms = bookedRooms;
+	}
+
+	public Employee getStakeholder() {
+		return stakeholder;
+	}
+
+	public void setStakeholder(Employee stakeholder) {
+		this.stakeholder = stakeholder;
+	}
+
+	public String getPurpose() {
+		return purpose;
+	}
+
+	public void setPurpose(String purpose) {
+		this.purpose = purpose;
+	}
+
+	public String getDateOfBooking() {
+		return dateOfBooking;
+	}
+
+	public void setDateOfBooking(String dateOfBooking) {
+		this.dateOfBooking = dateOfBooking;
+	}
+
+	public int getParticipants() {
+		return participants;
+	}
+
+	public void setParticipants(int participants) {
+		this.participants = participants;
+	}
+
+	@Override
+	public int hashCode() {
+		return Objects.hash(bookedRooms, dateOfBooking, participants, purpose, stakeholder);
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null)
+			return false;
+		if (getClass() != obj.getClass())
+			return false;
+		Booking other = (Booking) obj;
+		return Objects.equals(bookedRooms, other.bookedRooms) && Objects.equals(dateOfBooking, other.dateOfBooking)
+				&& participants == other.participants && Objects.equals(purpose, other.purpose)
+				&& Objects.equals(stakeholder, other.stakeholder);
+	}
+
+	@Override
+	public String toString() {
+		return "Booking [bookedRooms=" + bookedRooms + ", stakeholder=" + stakeholder + ", purpose=" + purpose
+				+ ", dateOfBooking=" + dateOfBooking + ", participants=" + participants + "]";
+	}
+
+}

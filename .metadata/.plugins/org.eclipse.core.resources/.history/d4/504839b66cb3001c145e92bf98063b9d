@@ -1,0 +1,9 @@
+package com.zensar.booking.db;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.zensar.booking.bean.Booking;
+
+public interface BookingDAO extends JpaRepository<Booking, Integer> {
+
+}

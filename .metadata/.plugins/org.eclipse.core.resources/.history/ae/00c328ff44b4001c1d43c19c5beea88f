@@ -1,0 +1,5 @@
+package com.zensar.room.service;
+
+public class RoomService {
+
+}

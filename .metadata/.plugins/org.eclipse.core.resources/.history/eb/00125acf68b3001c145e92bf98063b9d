@@ -1,0 +1,5 @@
+package com.zensar.booking.bean;
+
+public class Room {
+
+}

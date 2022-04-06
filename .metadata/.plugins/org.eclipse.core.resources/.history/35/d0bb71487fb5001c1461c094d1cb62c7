@@ -1,0 +1,5 @@
+package com.zensar.booking.db;
+
+public interface EmployeeDAO {
+
+}
