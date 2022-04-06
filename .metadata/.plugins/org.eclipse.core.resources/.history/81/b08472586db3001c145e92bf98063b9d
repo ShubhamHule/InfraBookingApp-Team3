@@ -1,5 +1,0 @@
-package com.zensar.booking.db;
-
-public interface RoomDAO {
-
-}

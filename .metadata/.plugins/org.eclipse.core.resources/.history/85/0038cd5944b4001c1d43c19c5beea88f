@@ -1,5 +1,0 @@
-package com.zensar.room.db;
-
-public interface RoomDAO {
-
-}

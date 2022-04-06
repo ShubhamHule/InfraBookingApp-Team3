@@ -1,8 +1,0 @@
-package com.zensar.room.configuration;
-
-public class Snippet {
-	public static void main(String[] args) {
-		com.zensar.room.configuration
-	}
-}
-
